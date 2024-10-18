@@ -12,6 +12,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
   <!-- Style CSS -->
   <link rel="stylesheet" href="./styles/style.css">
+  <style>
+    .flex {
+      display: flex;
+      flex-direction: column;
+    }
+  .slide {
+    float: left;
+  }
+
+  .slide img {
+    object-fit: cover;
+  }
+  </style>
   <title>Happy Birthday!!! Nadilaa</title>
 </head>
 
@@ -40,7 +53,7 @@
       <div class="text-box">
         <p class="hbd-chatbox">
           Semoga harimu menyenangkan hari ini, walaupun sekarang lagi ospek harus tetap semangat juga, dan semoga kuliahnya semakin diberi kelancaran yaaa, nadila pasti bisa walaupun berat, tuhan moal salah milih pundak untuk diberikan tanggung jawab, anjaiii.....    
-          Semoga selalu diberikan keberkahan disetiap apa yg nadila lakuin dan pasti berdampak baik oge buat nadila.
+          Semoga selalu diberikan keberkahan disetiap apa yg nadila lakuin dan pasti berdampak baik oge buat nadila.😊
         </p>
         <p class="fake-btn">
            ✨ 
@@ -49,6 +62,9 @@
     </div>
 
     <div class="five">
+      <p class="idea-one">
+        makan yg teratur! jangan telat makan nanti sakitt dei 🥺
+      </p>
       <p class="idea-1">
         mau ngucapin sebenernya...
       </p>
@@ -70,13 +86,18 @@
       </p>
     </div>
 
-    <div class="six">
-      <img src="./img/nadila1.jpg" alt="Ayanggg" class="profile-picture" id="imagePath" />
+    <div class="six flex">
+      <div class="slide">
+        <img src="./img/nadila1.jpg" alt="foto-1" class="profile-picture" id="imagePath" />
+      </div>
+      <div class="slide">
+        <img src="./img/ayang.png" alt="foto-2" class="profile-picture" id="imagePath" />
+      </div>
       <img src="img/hat.svg" alt="Hat" class="hat" />
       <div class="wish">
         <h3 class="wish-hbd">Happy Birthday!</h3>
         <h5 class="wish-text">
-          "Happy Birthday, Nadila! May your day be as beautiful as you are, and always be happy with your life and keep loving yourself. <br /> Lots of love and hugs on your
+          "Happy Birthday🥳, Nadila! May your day be as beautiful as you are, and always be happy with your life and keep loving yourself. <br /> Lots of love and hugs on your
           special
           day!"
         </h5>
@@ -166,5 +187,6 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- Main JS -->
 <script type="application/javascript" src="./scripts/birthday.js"></script>
+<script src="scripts/slide.js"></script>
 
 </html>

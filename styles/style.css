@@ -316,7 +316,7 @@ button[type="submit"]:hover {
 }
 
 @media screen and (max-width: 500px) {
-  .login_form{
+  .login_form {
     width: 350px;
     height: 250px;
   }
@@ -353,7 +353,7 @@ button[type="submit"]:hover {
   }
 
   .wish h5 {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .nine p {
