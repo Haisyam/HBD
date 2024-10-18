@@ -10,4 +10,4 @@ function showSlide(n) {
 // Contoh untuk mengganti slide secara otomatis setiap 3 detik
 setInterval(function () {
   showSlide(currentIndex + 1);
-}, 3000);
+}, 4000);

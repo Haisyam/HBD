@@ -1,6 +1,6 @@
 ## ✨ Website ucapan ulang tahun
 
-[demo](https://hbd-jubed.netlify.app/)
+[demo](https://hbd-nadila.vercel.app/)
 
 ## 🚀 Quick start
 
@@ -8,10 +8,10 @@
 
    ```bash
    # clone repo dengan git command berikut
-   $ git clone https://github.com/aafrzl/ucapan-ultah.git
+   $ git clone https://github.com/Haisyam/HBD.git
 
    # masuk ke folder project
-   $ cd ucapan-ultah
+   $ cd HBD
 
    # Buka di text editor kesayangan
    $ code .
